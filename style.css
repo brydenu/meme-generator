@@ -1,0 +1,82 @@
+body {
+    text-align: center;
+    background-color: black;
+    font-family: 'Turret Road', cursive;
+}
+
+img {
+    border: 0px;
+    border-radius: 10px;
+    padding: 3px;
+    max-width: 100%;
+    height: auto;
+    transition: opacity 250ms ease-in-out;
+}
+
+img:hover {
+    opacity: .5;
+    transition: opacity 250ms ease-in-out;
+}
+
+.meme {
+    position: relative;
+    max-width: 30%;
+    float: left;
+    margin: 10px;
+    text-align: center;
+    font-family: impact;
+    text-transform: uppercase;
+    font-size: 2vw;
+    text-shadow: -2px 0 black, 0 -2px black, 2px 0 black, 0 2px black, 2px 2px black, -2px 2px black, -2px -2px black, 2px -2px black;
+}
+
+.top-text {
+    position: absolute;
+    top: 5px;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.bottom-text {
+    position: absolute;
+    bottom: 5px;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+#customizer {
+    background-color: black;
+    border: 4px double limegreen;
+    border-radius: 20px;
+    margin: 1.5%;
+    padding: 1%;
+    color: limegreen;
+}
+
+button {
+    background-color: limegreen;
+    border: 5px double black;
+    font-family: 'Turret Road', cursive;
+    font-size: 2vw;
+    color: black;
+    margin-bottom: 1%;
+}
+
+.text-field {
+    width: 40%;
+    margin: 1% 10%;
+    background-color: black;
+    border: 1px solid limegreen;
+    color: limegreen;
+    font-family: 'Turret Road', cursive;
+}
+
+label {
+    margin-right: 10%;
+}
+
+.input-container {
+    text-align: right;
+}
